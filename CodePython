@@ -1,0 +1,7 @@
+import pandas as pd
+saldos = pd.read_csv('Saldos_Atms_Sucursales.csv',delimiter='|')
+buc = pd.read_csv('BUC.csv',delimiter='|')
+fallas = pd.read_csv('Fallas_cajeros.csv',delimiter='|')
+cerrados = pd.read_csv('Sucursales_cerradas_COVID19.csv',delimiter='|')
+#saldos.to_csv('df_Saldos.csv')
+print(cerrados)
